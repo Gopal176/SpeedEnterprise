@@ -1,0 +1,24 @@
+* {
+  font-family: poppins;
+}
+.navigation__bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation__bar-links {
+  display: flex;
+  gap: 2rem;
+}
+.navigation__bar-links a {
+  text-decoration: none;
+  color: Grey;
+  font-family: var(--font-family);
+}
+
+@media screen and (max-width: 1000px) {
+  .navigation__bar {
+    display: none;
+  }
+}
